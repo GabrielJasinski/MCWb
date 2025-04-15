@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectOptions>
+    <Version Value="12"/>
+    <PathDelim Value="\"/>
+    <General>
+      <Flags>
+        <MainUnitHasCreateFormStatements Value="False"/>
+        <MainUnitHasTitleStatement Value="False"/>
+        <CompatibilityMode Value="True"/>
+      </Flags>
+      <SessionStorage Value="InProjectDir"/>
+      <Title Value="qtdd"/>
+      <UseAppBundle Value="False"/>
+      <ResourceType Value="res"/>
+    </General>
+    <i18n>
+      <EnableI18N LFM="False"/>
+    </i18n>
+    <BuildModes Count="1">
+      <Item1 Name="Default" Default="True"/>
+    </BuildModes>
+    <PublishOptions>
+      <Version Value="2"/>
+    </PublishOptions>
+    <RunParams>
+      <local>
+        <CommandLineParams Value="-in ../QTDD9"/>
+        <Display Value=""/>
+      </local>
+      <FormatVersion Value="2"/>
+      <Modes Count="1">
+        <Mode0 Name="default">
+          <local>
+            <CommandLineParams Value="-in ../QTDD9"/>
+            <Display Value=""/>
+          </local>
+        </Mode0>
+      </Modes>
+    </RunParams>
+    <RequiredPackages Count="2">
+      <Item1>
+        <PackageName Value="LCL"/>
+      </Item1>
+      <Item2>
+        <PackageName Value="LazUtils"/>
+      </Item2>
+    </RequiredPackages>
+    <Units Count="13">
+      <Unit0>
+        <Filename Value="qtdd.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="QTDD"/>
+      </Unit0>
+      <Unit1>
+        <Filename Value="mol2.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="Mol2"/>
+      </Unit1>
+      <Unit2>
+        <Filename Value="stdmol.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="STDMol"/>
+      </Unit2>
+      <Unit3>
+        <Filename Value="covar.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="CoVar"/>
+      </Unit3>
+      <Unit4>
+        <Filename Value="ofiletextarray.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="OFileTextArray"/>
+      </Unit4>
+      <Unit5>
+        <Filename Value="coord.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="Coord"/>
+      </Unit5>
+      <Unit6>
+        <Filename Value="typedef.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="TypeDef"/>
+      </Unit6>
+      <Unit7>
+        <Filename Value="weights.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="Weights"/>
+      </Unit7>
+      <Unit8>
+        <Filename Value="whim.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="WHIM"/>
+      </Unit8>
+      <Unit9>
+        <Filename Value="moments.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="Moments"/>
+      </Unit9>
+      <Unit10>
+        <Filename Value="descriptors.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="Descriptors"/>
+      </Unit10>
+      <Unit11>
+        <Filename Value="errorhandling.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="ErrorHandling"/>
+      </Unit11>
+      <Unit12>
+        <Filename Value="comprof.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="ComProF"/>
+      </Unit12>
+    </Units>
+  </ProjectOptions>
+  <CompilerOptions>
+    <Version Value="11"/>
+    <PathDelim Value="\"/>
+    <Target>
+      <Filename Value="qtdd"/>
+    </Target>
+    <SearchPaths>
+      <IncludeFiles Value="$(ProjOutDir)"/>
+      <UnitOutputDirectory Value="lib\$(TargetCPU)-$(TargetOS)"/>
+    </SearchPaths>
+    <Linking>
+      <Debugging>
+        <DebugInfoType Value="dsDwarf3"/>
+      </Debugging>
+    </Linking>
+  </CompilerOptions>
+  <Debugging>
+    <Exceptions Count="3">
+      <Item1>
+        <Name Value="EAbort"/>
+      </Item1>
+      <Item2>
+        <Name Value="ECodetoolError"/>
+      </Item2>
+      <Item3>
+        <Name Value="EFOpenError"/>
+      </Item3>
+    </Exceptions>
+  </Debugging>
+</CONFIG>
