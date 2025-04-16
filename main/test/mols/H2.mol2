@@ -1,0 +1,21 @@
+#      Name: HyperChem HIN C:\Users\Lucas\Desktop\Gabriel\Lipocharge3\H2.hin
+#      Creating user name: HYPERCHEM
+#      Creation time: 5/5 9:42:2 2020
+
+#      Modifying user name: HYPERCHEM
+#      Modifying time: 5/5 9:42:2 2020
+
+@<TRIPOS>MOLECULE
+C:\Users\Lucas\Desktop\Gabriel\Lipocharge3\H2.ml2
+2 1  1  0  0
+SMALL
+USER_CHARGES
+
+
+@<TRIPOS>ATOM
+ 1 H1_____  -0000.4984 -0000.1778 -0000.0006 h0    1 <1>    0.336629e-06
+ 2 H2_____  00000.1801 00000.0982 00000.0006 h0    1 <1>    -0.309495e-06
+@<TRIPOS>BOND
+1 1 2 1
+@<TRIPOS>SUBSTRUCTURE
+1  ****    2   TEMP    0 **** **** 0 ROOT
